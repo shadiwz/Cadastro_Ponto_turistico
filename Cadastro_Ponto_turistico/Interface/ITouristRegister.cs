@@ -9,6 +9,6 @@ namespace Cadastro_Ponto_turistico.Interface
 {
     public interface ITouristRegister
     {
-        User Create(User user);
+        HttpResponseMessage Create(User user);
     }
 }

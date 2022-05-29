@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro_Ponto_turistico", "Cadastro_Ponto_turistico\Cadastro_Ponto_turistico.csproj", "{27757E8E-B0BE-45EA-AA1E-0AEC843AED0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastro_Ponto_turistico", "Cadastro_Ponto_turistico\Cadastro_Ponto_turistico.csproj", "{27757E8E-B0BE-45EA-AA1E-0AEC843AED0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{7DFE9105-1192-46A6-9B43-F01B5C75279A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPontoTuristico", "TestPontoTuristico\TestPontoTuristico.csproj", "{5C1B8EEC-6B29-4D9E-9F0F-C6956E215C04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{27757E8E-B0BE-45EA-AA1E-0AEC843AED0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27757E8E-B0BE-45EA-AA1E-0AEC843AED0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27757E8E-B0BE-45EA-AA1E-0AEC843AED0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C1B8EEC-6B29-4D9E-9F0F-C6956E215C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C1B8EEC-6B29-4D9E-9F0F-C6956E215C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C1B8EEC-6B29-4D9E-9F0F-C6956E215C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C1B8EEC-6B29-4D9E-9F0F-C6956E215C04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C1B8EEC-6B29-4D9E-9F0F-C6956E215C04} = {7DFE9105-1192-46A6-9B43-F01B5C75279A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7AA8CB5A-12D9-4697-8D07-76F4CD3C4668}

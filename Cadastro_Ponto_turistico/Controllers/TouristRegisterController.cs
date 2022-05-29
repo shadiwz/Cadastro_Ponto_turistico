@@ -21,7 +21,7 @@ namespace Cadastro_Ponto_turistico.Controllers
         }
 
         [HttpPost]
-        public User Post(User user)
+        public HttpResponseMessage Post(User user)
         {
             var touristResult = _touristRegister.Create(user);
             return touristResult;
